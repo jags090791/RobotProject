@@ -11,14 +11,17 @@ Default Tags    sanity
 *** Test Cases ***
 MyFirstTest
     [Tags]    Smoke
-    Log    Hello World....    
+    Log    My first Test    
     
 MySecondTest
     [Tags]    Regression
-    Log    Hello World....
+    Log    My second Test
     
 MyThirdTest
-    Log    Hello World....
+    Log    My third Test
+    
+MyFourthTest
+    Log    My fourth Test
     
 # FistSeleniumTest
     # Open Browser    https:google.com    chrome
